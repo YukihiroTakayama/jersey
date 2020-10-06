@@ -5,10 +5,6 @@
 https://qiita.com/kurkuru/items/127fa99ef5b2f0288b81
 ```
 
-```
-git clone https://github.com/fumimi/jersey.git
-```
-
 ## ドッカーコンテナの作成と起動
 
 ```
