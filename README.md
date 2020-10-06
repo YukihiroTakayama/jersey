@@ -1,8 +1,9 @@
 # 環境構築
 
-```
-git clone https://github.com/fumimi/jersey.git
-```
+## ドッカーのインストール
+
+https://qiita.com/kurkuru/items/127fa99ef5b2f0288b81
+
 
 ## ドッカーコンテナの作成と起動
 
