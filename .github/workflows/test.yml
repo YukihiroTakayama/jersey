@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: |
+        git log --numstat --pretty="%H" --author='YukihiroTakayama' --no-merges | awk 'NF==3 {plus+=$1; minus+=$2} END {printf("%d (+%d, -%d)\n", plus+minus, plus, minus)}'
+        echo $results
+      env:
+        results: curl -H "Authorization:token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/fumimi/jersey/collaborators
