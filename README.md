@@ -13,10 +13,6 @@ docker-compose up　--build
 
 ※ buildオプションは初回起動時のみつける
 
-## IntelliJ IDEAのインストールと設定手順
-
-https://docs.google.com/spreadsheets/d/1kuUvBJtmKMmX6LNdiVyPbXfRgHMyebvQ1WBlgq-p7wM/edit?usp=sharing
-
 ## よく使うdokerコマンド
 ※ wikiに移動予定
 ### appコンテナにログイン
