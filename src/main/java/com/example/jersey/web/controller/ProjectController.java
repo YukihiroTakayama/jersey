@@ -12,6 +12,6 @@ public class ProjectController {
 
   @RequestMapping(value = "/", method = RequestMethod.GET)
   public String index(Model model) {
-    return "/product/index";
+    return "/project/index";
   }
 }
