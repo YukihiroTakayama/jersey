@@ -14,7 +14,7 @@ public class UserController {
 
   @Autowired UserService userService;
 
-  @RequestMapping(value = "/user/index", method = RequestMethod.GET)
+  @RequestMapping(value = "/", method = RequestMethod.GET)
   public String index(Model model) {
     List<User> userlist = userService.findAll();
     model.addAttribute("userlist", userlist);
